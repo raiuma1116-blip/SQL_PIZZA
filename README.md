@@ -13,7 +13,7 @@ queries.
 
 --- 
 
-## Objectives
+## 🎯 Objectives
 
 - Analyze the distribution of orders across different pizza categories and sizes.
 - Apply advanced SQL techniques (joins, CTEs, and window functions) to generate actionable business insights.
@@ -22,7 +22,7 @@ queries.
 
 --- 
 
-## Dataset
+## 📂 Dataset
 
 The data for this project is sourced from the Maven dataset:
 
@@ -30,7 +30,7 @@ The data for this project is sourced from the Maven dataset:
 
 --- 
 
-## Schema
+## 🔗 Schema
 
 ```sql
 create table orders (
@@ -48,7 +48,7 @@ primary key(order_details_id));
 ```
 ---
 
-## Business Problems and Solutions
+## 💠 Business Problems and Solutions
 
  ## 1. Retrieve the total number of orders placed.
 
@@ -355,7 +355,7 @@ GROUP BY month;
 ---
 
 
-## Findings and Conclusion
+## 🔍 Findings and Conclusion
 
 - **Sales Distribution:** The dataset reveals variouspizza sales based on distinct pizza types, sizes, and categories, depicting the various preferences of customers.
 - **Top-Performing:** Analysis of order frequency and revenue indicates which pizza is most popular and which pizza generates the most revenue.
@@ -367,7 +367,7 @@ GROUP BY month;
 
 --- 
 
-## Author 
+## 👤 Author 
 Uma Rai  
 Data Analytics Portfolio Project
 

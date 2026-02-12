@@ -1,5 +1,7 @@
 # Pizza Sales Analysis SQL Project
 
+---
+
 ## Project Overview
 
 - **Project Titles:** Pizza Sales Analysis  
@@ -9,6 +11,8 @@ This project is designed to demonstrate SQL skilss and techniques typically used
 This project involves setting up a pizza sales databse,performing exploratory data analysis (EDA), and answering specific business questions through 
 queries. 
 
+--- 
+
 ## Objectives
 
 - Analyze the distribution of orders across different pizza categories and sizes.
@@ -16,11 +20,15 @@ queries.
 - Identify top-performing and low-performing pizzas, sizes, and categories based on quantity and revenue.
 - Analyze overall business performance by calculating total orders, total revenue, and key sales metrics.
 
+--- 
+
 ## Dataset
 
 The data for this project is sourced from the Maven dataset:
 
 - **Dataset Link:** [Pizza Dataset](https://mavenanalytics.io/data-playground/pizza-place-sales)
+
+--- 
 
 ## Schema
 
@@ -38,6 +46,7 @@ pizza_id text not null,
 quantity int not null ,
 primary key(order_details_id));
 ```
+---
 
 ## Business Problems and Solutions
 
@@ -342,6 +351,9 @@ GROUP BY month;
  ```
 
 **Objective:** To rank months based on revenue so strong and weak sales periods can be compared.
+
+---
+
 
 ## Findings and Conclusion
 

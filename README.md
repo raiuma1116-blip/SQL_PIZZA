@@ -365,6 +365,12 @@ GROUP BY month;
 
   This analysis will give a comprehensive picture of how well pizzas are selling, which can be used to make decisions.
 
+--- 
+
+## Author 
+Uma Rai  
+Data Analytics Portfolio Project
+
 
 
 

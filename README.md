@@ -371,6 +371,9 @@ GROUP BY month;
 Uma Rai  
 Data Analytics Portfolio Project
 
+### 🔗 Connect with Me
+
+- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/umarai12/)
 
 
 

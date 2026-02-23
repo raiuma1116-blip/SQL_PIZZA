@@ -28,7 +28,7 @@ SELECT
 FROM
     order_details o
 	JOIN
-    pizzas p ON o.pizza_id = o.pizza_id;
+    pizzas p ON o.pizza_id = p.pizza_id;
     
 -- 3. Identify the highest-priced pizza.--------------------------------------------------------------------------------------------
     
@@ -220,7 +220,7 @@ SELECT
     revenue
 FROM (
     SELECT
-        pt.category,
+        pt.category AS category,
         pt.name AS pizza_type,
         SUM(od.quantity * p.price) AS revenue,
         DENSE_RANK() OVER (

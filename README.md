@@ -1,4 +1,4 @@
-# Pizza Sales Analysis SQL Project
+# Operational Analytics with SQL
 
 ---
 
